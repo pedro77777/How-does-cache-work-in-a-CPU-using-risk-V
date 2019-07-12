@@ -1,0 +1,51 @@
+.data
+Class:
+.asciiz "Bill   "
+.word 87
+.asciiz "Art    "
+.word 45
+.asciiz "Peter  "
+.word 67
+.asciiz "Miller "
+.word 55
+.asciiz "Wells  "
+.word 51
+.asciiz "Rahim  "
+.word 90
+.asciiz "Thomas "
+.word 67
+.asciiz "Garcia "
+.word 49
+.asciiz "William"
+.word 77
+.asciiz "Janice "
+.word 55
+.asciiz "Emma   "
+.word 82
+.asciiz "Susie  "
+.word 69
+.asciiz "Katie  "
+.word 59
+.asciiz "Gizelle"
+.word 59
+.asciiz "Marie  "
+.word 66
+.asciiz "Powell "
+.word 87
+.asciiz "Marie  "
+.word 80
+.asciiz "Hannah "
+.word 71
+.asciiz "Kristen"
+.word 60
+.asciiz "Jones  "
+.word 50
+NumOfStudents: .word 20
+
+.text
+.globl main
+main:
+####Code Here####
+
+done:
+####Exit Using Enviornment Calls####

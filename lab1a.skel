@@ -1,0 +1,23 @@
+.data
+arrayOfNums:
+.word 0
+.word 1
+.word 255
+.word 65536
+.word 4294967295
+.word 22
+.word 314159
+.word 161803
+.word 42
+.word 131929
+K: .word 1337
+
+.text
+.globl main
+
+main:
+####Code here####
+
+done:
+####Exit using environmental calls####
+
